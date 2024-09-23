@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
     {
         countText.text = "Score: " + count.ToString();
 
-        if (count >= 7)
+        if (count >= 39)
         {
             SceneManager.LoadScene(3); 
         }
